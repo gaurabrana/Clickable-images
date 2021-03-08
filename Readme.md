@@ -1,2 +1,2 @@
-## Coding Challenge
-![](app/src/main/res/drawable/coding_challenge.gif)
+## Homework 
+![](app/src/main/res/drawable/homework.gif)
