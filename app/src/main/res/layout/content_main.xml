@@ -25,9 +25,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/donut_description"
+        android:onClick="showDonutOrder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textintro"
-        android:contentDescription="@string/donut_description"
         app:srcCompat="@drawable/donut_circle" />
 
     <ImageView
@@ -37,9 +38,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/icecream_description"
+        android:onClick="showIceCreamOrder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/donut"
-        android:contentDescription="@string/icecream_description"
         app:srcCompat="@drawable/froyo_circle" />
 
     <ImageView
@@ -49,9 +51,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/froyo_description"
+        android:onClick="showFroyoOrder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ice_cream"
-        android:contentDescription="@string/froyo_description"
         app:srcCompat="@drawable/icecream_circle" />
 
     <TextView
