@@ -1,2 +1,2 @@
-## OnClick methods added for images
-![](app/src/main/res/drawable/task2.gif)
+## Changed the floating button action
+![](app/src/main/res/drawable/task3.gif)
